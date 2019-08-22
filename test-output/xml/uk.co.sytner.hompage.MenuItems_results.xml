@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run test on Chrome browser"
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="167.613">
+  <properties />
+  
+  
+            <testcase name="MenuItems_001_AboutUs" time="8.622" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_014_HomeIcon" time="26.435" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_002_News" time="11.579" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_005_Finance" time="3.397" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_009_CarMaintenance" time="13.184" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_003_CustomerService" time="3.275" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_010_Promotions" time="13.135" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_004_Careers" time="3.395" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_008_NewCars" time="13.690" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_013_DealerLocator" time="12.728" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_011_BusinessUsers" time="12.826" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_015_SytnerGroupLogo" time="16.066" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_012_SellYourCar" time="12.739" classname="uk.co.sytner.hompage.MenuItems" />
+                <testcase name="MenuItems_007_UsedCarSearch" time="16.542" classname="uk.co.sytner.hompage.MenuItems" />
+      
+</testsuite>

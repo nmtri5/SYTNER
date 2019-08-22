@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 393.649 sec <<< FAILURE! - in TestSuite
+TC_25_JumpPoints_008_LandRover(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 17.04 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+

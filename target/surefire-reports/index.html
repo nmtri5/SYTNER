@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Register_and_Verify">
+              <span class="suite-name border-failed">Register and Verify</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Register_and_Verify">
+                    <span>D:\Automation Test\SYTNER\src\test\resources\runSytnerTestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Register_and_Verify">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Register_and_Verify">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Register_and_Verify">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Register_and_Verify">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Register_and_Verify">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Register_and_Verify">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 1 failed,  2 skipped,  21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Register_and_Verify" class="hide-methods failed suite-Register_and_Verify"> (hide)</a> <!-- hide-methods failed suite-Register_and_Verify -->
+                      <a href="#" panel-name="suite-Register_and_Verify" class="show-methods failed suite-Register_and_Verify"> (show)</a> <!-- show-methods failed suite-Register_and_Verify -->
+                    </span>
+                    <div class="method-list-content failed suite-Register_and_Verify">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_25_JumpPoints_008_LandRover">TC_25_JumpPoints_008_LandRover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Register_and_Verify -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Register_and_Verify" class="hide-methods skipped suite-Register_and_Verify"> (hide)</a> <!-- hide-methods skipped suite-Register_and_Verify -->
+                      <a href="#" panel-name="suite-Register_and_Verify" class="show-methods skipped suite-Register_and_Verify"> (show)</a> <!-- show-methods skipped suite-Register_and_Verify -->
+                    </span>
+                    <div class="method-list-content skipped suite-Register_and_Verify">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_25_JumpPoints_008_LandRover">TC_25_JumpPoints_008_LandRover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_25_JumpPoints_008_LandRover">TC_25_JumpPoints_008_LandRover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Register_and_Verify -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Register_and_Verify" class="hide-methods passed suite-Register_and_Verify"> (hide)</a> <!-- hide-methods passed suite-Register_and_Verify -->
+                      <a href="#" panel-name="suite-Register_and_Verify" class="show-methods passed suite-Register_and_Verify"> (show)</a> <!-- show-methods passed suite-Register_and_Verify -->
+                    </span>
+                    <div class="method-list-content passed suite-Register_and_Verify">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_18_JumpPoints_001_Alpina">TC_18_JumpPoints_001_Alpina</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_19_JumpPoints_002_Audi">TC_19_JumpPoints_002_Audi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_20_JumpPoints_003_Bentley">TC_20_JumpPoints_003_Bentley</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_21_JumpPoints_004_BMW">TC_21_JumpPoints_004_BMW</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_22_JumpPoints_005_Ferrari">TC_22_JumpPoints_005_Ferrari</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_23_JumpPoints_006_AstonMartin">TC_23_JumpPoints_006_AstonMartin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_24_JumpPoints_007_Jaguar">TC_24_JumpPoints_007_Jaguar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_26_JumpPoints_009_Lamborghini">TC_26_JumpPoints_009_Lamborghini</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_27_JumpPoints_010_SytnerSelect">TC_27_JumpPoints_010_SytnerSelect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_28_JumpPoints_011_Maserati">TC_28_JumpPoints_011_Maserati</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_29_JumpPoints_012_McLaren">TC_29_JumpPoints_012_McLaren</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_30_JumpPoints_013_MercedesBenz">TC_30_JumpPoints_013_MercedesBenz</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_31_JumpPoints_014_Mini">TC_31_JumpPoints_014_Mini</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_32_JumpPoints_015_Porsche">TC_32_JumpPoints_015_Porsche</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_33_JumpPoints_016_RollsRoyce">TC_33_JumpPoints_016_RollsRoyce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_34_JumpPoints_017_Seat">TC_34_JumpPoints_017_Seat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_35_JumpPoints_018_Skoda">TC_35_JumpPoints_018_Skoda</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_36_JumpPoints_019_Smart">TC_36_JumpPoints_019_Smart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_37_JumpPoints_020_Volkswagen">TC_37_JumpPoints_020_Volkswagen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_38_JumpPoints_021_VolkswagenCommercial">TC_38_JumpPoints_021_VolkswagenCommercial</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_and_Verify" title="uk.co.sytner.hompage.JumpPoint" hash-for-method="TC_39_JumpPoints_022_Volvo">TC_39_JumpPoints_022_Volvo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Register_and_Verify -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Register_and_Verify" class="panel Register_and_Verify">
+          <div class="suite-Register_and_Verify-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">uk.co.sytner.hompage.JumpPoint</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_25_JumpPoints_008_LandRover">
+                  </a> <!-- TC_25_JumpPoints_008_LandRover -->
+                  <span class="method-name">TC_25_JumpPoints_008_LandRover</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at commons.AbstractTest.checkPassed(AbstractTest.java:63)
+	at commons.AbstractTest.verifyTrue(AbstractTest.java:74)
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Register_and_Verify-class-failed -->
+          <div class="suite-Register_and_Verify-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">uk.co.sytner.hompage.JumpPoint</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_25_JumpPoints_008_LandRover">
+                  </a> <!-- TC_25_JumpPoints_008_LandRover -->
+                  <span class="method-name">TC_25_JumpPoints_008_LandRover</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at commons.AbstractTest.checkPassed(AbstractTest.java:63)
+	at commons.AbstractTest.verifyTrue(AbstractTest.java:74)
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_25_JumpPoints_008_LandRover">
+                  </a> <!-- TC_25_JumpPoints_008_LandRover -->
+                  <span class="method-name">TC_25_JumpPoints_008_LandRover</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at commons.AbstractTest.checkPassed(AbstractTest.java:63)
+	at commons.AbstractTest.verifyTrue(AbstractTest.java:74)
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Register_and_Verify-class-skipped -->
+          <div class="suite-Register_and_Verify-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">uk.co.sytner.hompage.JumpPoint</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_18_JumpPoints_001_Alpina">
+                  </a> <!-- TC_18_JumpPoints_001_Alpina -->
+                  <span class="method-name">TC_18_JumpPoints_001_Alpina</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_19_JumpPoints_002_Audi">
+                  </a> <!-- TC_19_JumpPoints_002_Audi -->
+                  <span class="method-name">TC_19_JumpPoints_002_Audi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_20_JumpPoints_003_Bentley">
+                  </a> <!-- TC_20_JumpPoints_003_Bentley -->
+                  <span class="method-name">TC_20_JumpPoints_003_Bentley</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_21_JumpPoints_004_BMW">
+                  </a> <!-- TC_21_JumpPoints_004_BMW -->
+                  <span class="method-name">TC_21_JumpPoints_004_BMW</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_22_JumpPoints_005_Ferrari">
+                  </a> <!-- TC_22_JumpPoints_005_Ferrari -->
+                  <span class="method-name">TC_22_JumpPoints_005_Ferrari</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_23_JumpPoints_006_AstonMartin">
+                  </a> <!-- TC_23_JumpPoints_006_AstonMartin -->
+                  <span class="method-name">TC_23_JumpPoints_006_AstonMartin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_24_JumpPoints_007_Jaguar">
+                  </a> <!-- TC_24_JumpPoints_007_Jaguar -->
+                  <span class="method-name">TC_24_JumpPoints_007_Jaguar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_26_JumpPoints_009_Lamborghini">
+                  </a> <!-- TC_26_JumpPoints_009_Lamborghini -->
+                  <span class="method-name">TC_26_JumpPoints_009_Lamborghini</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_27_JumpPoints_010_SytnerSelect">
+                  </a> <!-- TC_27_JumpPoints_010_SytnerSelect -->
+                  <span class="method-name">TC_27_JumpPoints_010_SytnerSelect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_28_JumpPoints_011_Maserati">
+                  </a> <!-- TC_28_JumpPoints_011_Maserati -->
+                  <span class="method-name">TC_28_JumpPoints_011_Maserati</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_29_JumpPoints_012_McLaren">
+                  </a> <!-- TC_29_JumpPoints_012_McLaren -->
+                  <span class="method-name">TC_29_JumpPoints_012_McLaren</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_30_JumpPoints_013_MercedesBenz">
+                  </a> <!-- TC_30_JumpPoints_013_MercedesBenz -->
+                  <span class="method-name">TC_30_JumpPoints_013_MercedesBenz</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_31_JumpPoints_014_Mini">
+                  </a> <!-- TC_31_JumpPoints_014_Mini -->
+                  <span class="method-name">TC_31_JumpPoints_014_Mini</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_32_JumpPoints_015_Porsche">
+                  </a> <!-- TC_32_JumpPoints_015_Porsche -->
+                  <span class="method-name">TC_32_JumpPoints_015_Porsche</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_33_JumpPoints_016_RollsRoyce">
+                  </a> <!-- TC_33_JumpPoints_016_RollsRoyce -->
+                  <span class="method-name">TC_33_JumpPoints_016_RollsRoyce</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_34_JumpPoints_017_Seat">
+                  </a> <!-- TC_34_JumpPoints_017_Seat -->
+                  <span class="method-name">TC_34_JumpPoints_017_Seat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_35_JumpPoints_018_Skoda">
+                  </a> <!-- TC_35_JumpPoints_018_Skoda -->
+                  <span class="method-name">TC_35_JumpPoints_018_Skoda</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_36_JumpPoints_019_Smart">
+                  </a> <!-- TC_36_JumpPoints_019_Smart -->
+                  <span class="method-name">TC_36_JumpPoints_019_Smart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_37_JumpPoints_020_Volkswagen">
+                  </a> <!-- TC_37_JumpPoints_020_Volkswagen -->
+                  <span class="method-name">TC_37_JumpPoints_020_Volkswagen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_38_JumpPoints_021_VolkswagenCommercial">
+                  </a> <!-- TC_38_JumpPoints_021_VolkswagenCommercial -->
+                  <span class="method-name">TC_38_JumpPoints_021_VolkswagenCommercial</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_39_JumpPoints_022_Volvo">
+                  </a> <!-- TC_39_JumpPoints_022_Volvo -->
+                  <span class="method-name">TC_39_JumpPoints_022_Volvo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Register_and_Verify-class-passed -->
+        </div> <!-- panel Register_and_Verify -->
+        <div panel-name="test-xml-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation Test\SYTNER\src\test\resources\runSytnerTestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Register and Verify&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;extentreport.ExtentReportListener&quot;/&gt;
+    &lt;listener class-name=&quot;retrytestcase.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Run test on Chrome browser&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;uk.co.sytner.hompage.JumpPoint&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run test on Chrome browser --&gt;
+&lt;/suite&gt; &lt;!-- Register and Verify --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Register and Verify</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run test on Chrome browser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Register and Verify</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Register and Verify</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Register_and_Verify');
+function tableData_Register_and_Verify() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_34_JumpPoints_017_Seat')
+data.setCell(0, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(0, 3, 18839);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_32_JumpPoints_015_Porsche')
+data.setCell(1, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(1, 3, 18247);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_31_JumpPoints_014_Mini')
+data.setCell(2, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(2, 3, 18066);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_25_JumpPoints_008_LandRover')
+data.setCell(3, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(3, 3, 17435);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_29_JumpPoints_012_McLaren')
+data.setCell(4, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(4, 3, 17230);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_28_JumpPoints_011_Maserati')
+data.setCell(5, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(5, 3, 17146);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_19_JumpPoints_002_Audi')
+data.setCell(6, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(6, 3, 17063);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_20_JumpPoints_003_Bentley')
+data.setCell(7, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(7, 3, 16580);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_18_JumpPoints_001_Alpina')
+data.setCell(8, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(8, 3, 15572);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_25_JumpPoints_008_LandRover')
+data.setCell(9, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(9, 3, 15111);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_22_JumpPoints_005_Ferrari')
+data.setCell(10, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(10, 3, 15083);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_30_JumpPoints_013_MercedesBenz')
+data.setCell(11, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(11, 3, 14933);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_39_JumpPoints_022_Volvo')
+data.setCell(12, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(12, 3, 14897);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_27_JumpPoints_010_SytnerSelect')
+data.setCell(13, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(13, 3, 14873);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_35_JumpPoints_018_Skoda')
+data.setCell(14, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(14, 3, 14200);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_36_JumpPoints_019_Smart')
+data.setCell(15, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(15, 3, 14179);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_25_JumpPoints_008_LandRover')
+data.setCell(16, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(16, 3, 14076);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_38_JumpPoints_021_VolkswagenCommercial')
+data.setCell(17, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(17, 3, 13984);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_21_JumpPoints_004_BMW')
+data.setCell(18, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(18, 3, 13301);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_37_JumpPoints_020_Volkswagen')
+data.setCell(19, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(19, 3, 12999);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC_33_JumpPoints_016_RollsRoyce')
+data.setCell(20, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(20, 3, 12501);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC_24_JumpPoints_007_Jaguar')
+data.setCell(21, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(21, 3, 12399);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC_26_JumpPoints_009_Lamborghini')
+data.setCell(22, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(22, 3, 10654);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC_23_JumpPoints_006_AstonMartin')
+data.setCell(23, 2, 'uk.co.sytner.hompage.JumpPoint')
+data.setCell(23, 3, 10500);
+window.suiteTableData['Register_and_Verify']= { tableData: data, tableDiv: 'times-div-Register_and_Verify'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Register_and_Verify">
+              </div> <!-- times-div-Register_and_Verify -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Register and Verify</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_38_JumpPoints_021_VolkswagenCommercial</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:11:35,799 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:36,910 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:36,911 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volkswagen Commercial jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:40,053 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:40,155 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:40,155 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Volkswagen Commercial jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:46,981 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:47,008 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:47,008 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_30_JumpPoints_013_MercedesBenz</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:09:31,827 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:32,005 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:32,005 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:33,225 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:33,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:33,270 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On MercedesBenz jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:36,658 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:37,112 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:37,112 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_26_JumpPoints_009_Lamborghini</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:08:31,920 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:32,161 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:32,161 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:33,419 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:33,469 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:33,469 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Lamborghini jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:40,155 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:40,186 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:40,187 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_37_JumpPoints_020_Volkswagen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:11:22,799 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:23,879 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:23,879 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volkswagen jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:26,601 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:26,653 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:26,653 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Volkswagen jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:29,694 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:30,034 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:30,035 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_35_JumpPoints_018_Skoda</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:10:54,418 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:54,555 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:54,555 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:55,784 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:55,832 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:55,832 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Skoda jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:06,281 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:06,302 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:06,302 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_28_JumpPoints_011_Maserati</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:08:57,449 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:58,944 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:58,944 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:01,531 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:01,726 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:01,726 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Maserati jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:08,639 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:08,650 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:08,651 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_31_JumpPoints_014_Mini</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:09:46,761 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:46,959 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:46,960 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:48,308 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:48,356 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:48,356 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On MINI jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:57,279 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:57,538 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:57,538 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_21_JumpPoints_004_BMW</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:06:53,991 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:54,094 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:54,095 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:55,309 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:55,391 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:55,391 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On BMW jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:04,697 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:04,709 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:04,710 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_23_JumpPoints_006_AstonMartin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:07:22,377 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:22,568 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:22,568 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:23,758 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:23,806 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:23,807 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Aston Martin jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:29,730 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:29,738 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:29,738 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_22_JumpPoints_005_Ferrari</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:07:07,292 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:08,207 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:08,207 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:11,204 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:11,341 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:11,341 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Ferrari jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:13,256 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:13,791 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:13,791 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_39_JumpPoints_022_Volvo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:11:49,785 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:51,626 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:51,626 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:54,213 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:54,260 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:54,260 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Volvo jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:12:01,940 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:12:02,019 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:12:02,019 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_19_JumpPoints_002_Audi</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:06:20,347 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:21,900 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:21,900 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:24,578 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:24,632 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:24,632 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Audi jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:33,631 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:33,743 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:33,743 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_29_JumpPoints_012_McLaren</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:09:14,596 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:14,778 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:14,778 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:15,940 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:15,995 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:15,995 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On McLaren jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:23,810 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:23,835 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:09:23,835 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_34_JumpPoints_017_Seat</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:10:35,577 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:37,377 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:37,377 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:39,914 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:40,075 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:40,075 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On SEAT jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:48,383 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:48,392 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:48,392 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_36_JumpPoints_019_Smart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:11:08,619 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:09,687 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:09,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:12,795 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:12,969 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:12,969 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On smart jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:19,526 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:19,626 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:11:19,627 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_20_JumpPoints_003_Bentley</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:06:37,410 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:38,416 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:38,417 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:41,115 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:41,294 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:41,294 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Bentley jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:47,542 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:47,752 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:47,753 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_24_JumpPoints_007_Jaguar</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:07:32,877 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:34,536 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:34,536 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:36,870 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:36,929 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:36,929 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Jaguar jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:39,720 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:40,161 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:40,162 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_33_JumpPoints_016_RollsRoyce</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:10:23,076 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:23,461 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:23,461 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:24,669 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:24,725 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:24,725 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Rolls Royce jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:33,089 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:33,107 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:33,107 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_27_JumpPoints_010_SytnerSelect</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:08:42,575 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:44,425 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:44,426 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:47,118 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:47,166 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:47,166 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Sytner Select jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:54,542 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:54,553 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:54,554 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_18_JumpPoints_001_Alpina</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:06:04,783 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:05,074 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:05,079 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:06,400 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:06,559 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:06,559 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Alpina jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:16,498 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:16,534 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:06:16,534 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_32_JumpPoints_015_Porsche</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:10:04,827 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:05,047 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:05,048 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:06,261 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:06,311 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:06,311 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Porsche jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:12,751 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:12,775 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:10:12,775 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_25_JumpPoints_008_LandRover</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:08:14,470 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:16,877 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:16,878 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:20,669 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:23,324 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:23,711 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:23,712 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_25_JumpPoints_008_LandRover</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:07:45,277 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:49,329 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:49,382 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:49,383 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:57,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:57,695 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:07:57,700 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_25_JumpPoints_008_LandRover</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-08-14 23:08:00,392 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:01,680 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:01,681 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:04,240 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:06,812 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:07,170 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
+</span>
+                <span class="reporter-method-output">2019-08-14 23:08:07,171 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Register_and_Verify" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">uk.co.sytner.hompage.JumpPoint</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_18_JumpPoints_001_Alpina</span>
+                <span class="method-start">24285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_19_JumpPoints_002_Audi</span>
+                <span class="method-start">39858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_20_JumpPoints_003_Bentley</span>
+                <span class="method-start">56922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_21_JumpPoints_004_BMW</span>
+                <span class="method-start">73502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_22_JumpPoints_005_Ferrari</span>
+                <span class="method-start">86804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_23_JumpPoints_006_AstonMartin</span>
+                <span class="method-start">101888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_24_JumpPoints_007_Jaguar</span>
+                <span class="method-start">112389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_25_JumpPoints_008_LandRover</span>
+                <span class="method-start">124789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_25_JumpPoints_008_LandRover</span>
+                <span class="method-start">139904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_25_JumpPoints_008_LandRover</span>
+                <span class="method-start">153981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_26_JumpPoints_009_Lamborghini</span>
+                <span class="method-start">171432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_27_JumpPoints_010_SytnerSelect</span>
+                <span class="method-start">182086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_28_JumpPoints_011_Maserati</span>
+                <span class="method-start">196961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_29_JumpPoints_012_McLaren</span>
+                <span class="method-start">214108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_30_JumpPoints_013_MercedesBenz</span>
+                <span class="method-start">231338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_31_JumpPoints_014_Mini</span>
+                <span class="method-start">246272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_32_JumpPoints_015_Porsche</span>
+                <span class="method-start">264339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_33_JumpPoints_016_RollsRoyce</span>
+                <span class="method-start">282587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_34_JumpPoints_017_Seat</span>
+                <span class="method-start">295089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_35_JumpPoints_018_Skoda</span>
+                <span class="method-start">313930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_36_JumpPoints_019_Smart</span>
+                <span class="method-start">328131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_37_JumpPoints_020_Volkswagen</span>
+                <span class="method-start">342311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_38_JumpPoints_021_VolkswagenCommercial</span>
+                <span class="method-start">355311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_39_JumpPoints_022_Volvo</span>
+                <span class="method-start">369297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">384195 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

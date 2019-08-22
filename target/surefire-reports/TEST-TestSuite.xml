@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="393.649" tests="24" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation Test\SYTNER"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation Test\SYTNER"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\iNTERFACEWARE\Chameleon;C:\Program Files (x86)\iNTERFACEWARE\Chameleon\DelphiPackages;C:\Program Files\iNTERFACEWARE\Iguana;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\apache-maven-3.6.1\bin;D:\Cmder\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\.dotnet\tools;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="D:\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC_18_JumpPoints_001_Alpina" classname="uk.co.sytner.hompage.JumpPoint" time="15.568"/>
+  <testcase name="TC_19_JumpPoints_002_Audi" classname="uk.co.sytner.hompage.JumpPoint" time="17.057"/>
+  <testcase name="TC_20_JumpPoints_003_Bentley" classname="uk.co.sytner.hompage.JumpPoint" time="16.58"/>
+  <testcase name="TC_21_JumpPoints_004_BMW" classname="uk.co.sytner.hompage.JumpPoint" time="13.3"/>
+  <testcase name="TC_22_JumpPoints_005_Ferrari" classname="uk.co.sytner.hompage.JumpPoint" time="15.084"/>
+  <testcase name="TC_23_JumpPoints_006_AstonMartin" classname="uk.co.sytner.hompage.JumpPoint" time="10.501"/>
+  <testcase name="TC_24_JumpPoints_007_Jaguar" classname="uk.co.sytner.hompage.JumpPoint" time="12.398"/>
+  <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2019-08-14 23:07:45,277 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+2019-08-14 23:07:49,329 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
+2019-08-14 23:07:49,382 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2019-08-14 23:07:49,383 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
+2019-08-14 23:07:57,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
+2019-08-14 23:07:57,695 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
+2019-08-14 23:07:57,700 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+Retry test name: TC_25_JumpPoints_008_LandRover with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2019-08-14 23:08:00,392 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2019-08-14 23:08:01,680 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2019-08-14 23:08:01,681 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+2019-08-14 23:08:04,240 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
+2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
+2019-08-14 23:08:06,812 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
+2019-08-14 23:08:07,170 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
+2019-08-14 23:08:07,171 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+Retry test name: TC_25_JumpPoints_008_LandRover with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="17.04">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+</failure>
+    <system-out><![CDATA[2019-08-14 23:08:14,470 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2019-08-14 23:08:16,877 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2019-08-14 23:08:16,878 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+2019-08-14 23:08:20,669 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
+2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
+2019-08-14 23:08:23,324 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
+2019-08-14 23:08:23,711 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
+2019-08-14 23:08:23,712 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+]]></system-out>
+  </testcase>
+  <testcase name="TC_26_JumpPoints_009_Lamborghini" classname="uk.co.sytner.hompage.JumpPoint" time="10.653"/>
+  <testcase name="TC_27_JumpPoints_010_SytnerSelect" classname="uk.co.sytner.hompage.JumpPoint" time="14.872"/>
+  <testcase name="TC_28_JumpPoints_011_Maserati" classname="uk.co.sytner.hompage.JumpPoint" time="17.147"/>
+  <testcase name="TC_29_JumpPoints_012_McLaren" classname="uk.co.sytner.hompage.JumpPoint" time="17.23"/>
+  <testcase name="TC_30_JumpPoints_013_MercedesBenz" classname="uk.co.sytner.hompage.JumpPoint" time="14.933"/>
+  <testcase name="TC_31_JumpPoints_014_Mini" classname="uk.co.sytner.hompage.JumpPoint" time="18.065"/>
+  <testcase name="TC_32_JumpPoints_015_Porsche" classname="uk.co.sytner.hompage.JumpPoint" time="18.248"/>
+  <testcase name="TC_33_JumpPoints_016_RollsRoyce" classname="uk.co.sytner.hompage.JumpPoint" time="12.502"/>
+  <testcase name="TC_34_JumpPoints_017_Seat" classname="uk.co.sytner.hompage.JumpPoint" time="18.839"/>
+  <testcase name="TC_35_JumpPoints_018_Skoda" classname="uk.co.sytner.hompage.JumpPoint" time="14.201"/>
+  <testcase name="TC_36_JumpPoints_019_Smart" classname="uk.co.sytner.hompage.JumpPoint" time="14.179"/>
+  <testcase name="TC_37_JumpPoints_020_Volkswagen" classname="uk.co.sytner.hompage.JumpPoint" time="12.998"/>
+  <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" classname="uk.co.sytner.hompage.JumpPoint" time="13.984"/>
+  <testcase name="TC_39_JumpPoints_022_Volvo" classname="uk.co.sytner.hompage.JumpPoint" time="14.898"/>
+</testsuite>
