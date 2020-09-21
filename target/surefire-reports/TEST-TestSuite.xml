@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="393.649" tests="24" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,875.45" tests="66" errors="0" skipped="44" failures="22">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="java.vm.version" value="25.261-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Automation Test\SYTNER"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\SYTNER"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,46 +16,46 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Automation Test\SYTNER"/>
-    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.dir" value="C:\SYTNER"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\TRI~1.NGU\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\iNTERFACEWARE\Chameleon;C:\Program Files (x86)\iNTERFACEWARE\Chameleon\DelphiPackages;C:\Program Files\iNTERFACEWARE\Iguana;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\apache-maven-3.6.1\bin;D:\Cmder\bin;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\.dotnet\tools;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;."/>
-    <property name="maven.conf" value="D:\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\tri.nguyen\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\bin;;C:\Users\tri.nguyen\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="D:\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\tri.nguyen"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Admin"/>
-    <property name="java.class.path" value="D:\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="user.name" value="tri.nguyen"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_191"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\apache-maven-3.6.1\bin\.."/>
+    <property name="maven.home" value="C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -64,68 +64,686 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="TC_18_JumpPoints_001_Alpina" classname="uk.co.sytner.hompage.JumpPoint" time="15.568"/>
-  <testcase name="TC_19_JumpPoints_002_Audi" classname="uk.co.sytner.hompage.JumpPoint" time="17.057"/>
-  <testcase name="TC_20_JumpPoints_003_Bentley" classname="uk.co.sytner.hompage.JumpPoint" time="16.58"/>
-  <testcase name="TC_21_JumpPoints_004_BMW" classname="uk.co.sytner.hompage.JumpPoint" time="13.3"/>
-  <testcase name="TC_22_JumpPoints_005_Ferrari" classname="uk.co.sytner.hompage.JumpPoint" time="15.084"/>
-  <testcase name="TC_23_JumpPoints_006_AstonMartin" classname="uk.co.sytner.hompage.JumpPoint" time="10.501"/>
-  <testcase name="TC_24_JumpPoints_007_Jaguar" classname="uk.co.sytner.hompage.JumpPoint" time="12.398"/>
+  <testcase name="TC_18_JumpPoints_001_Alpina" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+2020-09-20 19:49:47,341 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+2020-09-20 19:49:47,782 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:49:47,783 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+Retry test name: TC_18_JumpPoints_001_Alpina with: 1time(s).
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 42326
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 20, 2020 7:49:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="TC_18_JumpPoints_001_Alpina" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:50:18,143 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+2020-09-20 19:50:18,188 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:50:18,188 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+Retry test name: TC_18_JumpPoints_001_Alpina with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_18_JumpPoints_001_Alpina" classname="uk.co.sytner.hompage.JumpPoint" time="30.276">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module alpina&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module alpina')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_18_JumpPoints_001_Alpina(JumpPoint.java:31)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:50:48,323 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+2020-09-20 19:50:48,361 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:50:48,361 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_19_JumpPoints_002_Audi" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:51:18,602 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+2020-09-20 19:51:18,644 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:51:18,644 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+Retry test name: TC_19_JumpPoints_002_Audi with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_19_JumpPoints_002_Audi" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:51:48,771 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+2020-09-20 19:51:48,805 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:51:48,805 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+Retry test name: TC_19_JumpPoints_002_Audi with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_19_JumpPoints_002_Audi" classname="uk.co.sytner.hompage.JumpPoint" time="30.291">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module audi&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module audi')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_19_JumpPoints_002_Audi(JumpPoint.java:52)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:52:18,998 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+2020-09-20 19:52:19,050 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:52:19,050 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_20_JumpPoints_003_Bentley" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:52:49,292 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+2020-09-20 19:52:49,342 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:52:49,342 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+Retry test name: TC_20_JumpPoints_003_Bentley with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_20_JumpPoints_003_Bentley" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:53:19,807 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+2020-09-20 19:53:19,847 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:53:19,847 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+Retry test name: TC_20_JumpPoints_003_Bentley with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_20_JumpPoints_003_Bentley" classname="uk.co.sytner.hompage.JumpPoint" time="30.303">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module bentley&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module bentley')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_20_JumpPoints_003_Bentley(JumpPoint.java:73)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:53:50,143 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+2020-09-20 19:53:50,203 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:53:50,203 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_21_JumpPoints_004_BMW" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:54:20,448 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+2020-09-20 19:54:20,489 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:54:20,489 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+Retry test name: TC_21_JumpPoints_004_BMW with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_21_JumpPoints_004_BMW" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:54:50,644 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+2020-09-20 19:54:50,678 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:54:50,679 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+Retry test name: TC_21_JumpPoints_004_BMW with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_21_JumpPoints_004_BMW" classname="uk.co.sytner.hompage.JumpPoint" time="30.248">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module bmw&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module bmw')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_21_JumpPoints_004_BMW(JumpPoint.java:94)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:55:20,977 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+2020-09-20 19:55:21,010 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:55:21,010 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_22_JumpPoints_005_Ferrari" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:55:51,228 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+2020-09-20 19:55:51,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:55:51,269 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+Retry test name: TC_22_JumpPoints_005_Ferrari with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_22_JumpPoints_005_Ferrari" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:56:21,350 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+2020-09-20 19:56:21,385 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:56:21,385 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+Retry test name: TC_22_JumpPoints_005_Ferrari with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_22_JumpPoints_005_Ferrari" classname="uk.co.sytner.hompage.JumpPoint" time="30.262">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module ferrari&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module ferrari')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_22_JumpPoints_005_Ferrari(JumpPoint.java:115)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:56:51,920 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+2020-09-20 19:56:51,961 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:56:51,961 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_23_JumpPoints_006_AstonMartin" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:57:22,185 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+2020-09-20 19:57:22,253 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:57:22,253 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+Retry test name: TC_23_JumpPoints_006_AstonMartin with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_23_JumpPoints_006_AstonMartin" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:57:52,520 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+2020-09-20 19:57:52,561 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:57:52,561 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+2020-09-20 19:57:54,276 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin icon is displayed
+Retry test name: TC_23_JumpPoints_006_AstonMartin with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_23_JumpPoints_006_AstonMartin" classname="uk.co.sytner.hompage.JumpPoint" time="30.212">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module aston-martin&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module aston-martin')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_23_JumpPoints_006_AstonMartin(JumpPoint.java:136)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:58:04,371 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+2020-09-20 19:58:04,405 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:58:04,405 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_24_JumpPoints_007_Jaguar" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:58:34,585 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+2020-09-20 19:58:34,627 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:58:34,627 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+Retry test name: TC_24_JumpPoints_007_Jaguar with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_24_JumpPoints_007_Jaguar" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 19:59:04,747 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+2020-09-20 19:59:04,784 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:59:04,784 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+Retry test name: TC_24_JumpPoints_007_Jaguar with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_24_JumpPoints_007_Jaguar" classname="uk.co.sytner.hompage.JumpPoint" time="30.249">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module jaguar&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module jaguar')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_24_JumpPoints_007_Jaguar(JumpPoint.java:157)
+</failure>
+    <system-out><![CDATA[2020-09-20 19:59:34,858 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+2020-09-20 19:59:34,900 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:59:34,900 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+]]></system-out>
+  </testcase>
   <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="0">
     <skipped/>
-    <system-out><![CDATA[2019-08-14 23:07:45,277 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
-2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
-2019-08-14 23:07:49,329 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
-2019-08-14 23:07:49,382 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:49,383 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
-2019-08-14 23:07:57,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
-2019-08-14 23:07:57,695 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
-2019-08-14 23:07:57,700 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+    <system-out><![CDATA[2020-09-20 20:00:05,109 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2020-09-20 20:00:05,166 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:00:05,166 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
 Retry test name: TC_25_JumpPoints_008_LandRover with: 1time(s).
 ]]></system-out>
   </testcase>
   <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="0">
     <skipped/>
-    <system-out><![CDATA[2019-08-14 23:08:00,392 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
-2019-08-14 23:08:01,680 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:01,681 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
-2019-08-14 23:08:04,240 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
-2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
-2019-08-14 23:08:06,812 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
-2019-08-14 23:08:07,170 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
-2019-08-14 23:08:07,171 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+    <system-out><![CDATA[2020-09-20 20:00:35,249 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2020-09-20 20:00:35,282 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:00:35,282 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
 Retry test name: TC_25_JumpPoints_008_LandRover with: 2time(s).
 ]]></system-out>
   </testcase>
-  <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="17.04">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+  <testcase name="TC_25_JumpPoints_008_LandRover" classname="uk.co.sytner.hompage.JumpPoint" time="30.096">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module land-rover&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module land-rover')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:178)
 </failure>
-    <system-out><![CDATA[2019-08-14 23:08:14,470 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
-2019-08-14 23:08:16,877 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:16,878 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
-2019-08-14 23:08:20,669 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
-2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
-2019-08-14 23:08:23,324 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
-2019-08-14 23:08:23,711 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
-2019-08-14 23:08:23,712 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
+    <system-out><![CDATA[2020-09-20 20:01:05,351 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2020-09-20 20:01:05,385 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:01:05,385 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
 ]]></system-out>
   </testcase>
-  <testcase name="TC_26_JumpPoints_009_Lamborghini" classname="uk.co.sytner.hompage.JumpPoint" time="10.653"/>
-  <testcase name="TC_27_JumpPoints_010_SytnerSelect" classname="uk.co.sytner.hompage.JumpPoint" time="14.872"/>
-  <testcase name="TC_28_JumpPoints_011_Maserati" classname="uk.co.sytner.hompage.JumpPoint" time="17.147"/>
-  <testcase name="TC_29_JumpPoints_012_McLaren" classname="uk.co.sytner.hompage.JumpPoint" time="17.23"/>
-  <testcase name="TC_30_JumpPoints_013_MercedesBenz" classname="uk.co.sytner.hompage.JumpPoint" time="14.933"/>
-  <testcase name="TC_31_JumpPoints_014_Mini" classname="uk.co.sytner.hompage.JumpPoint" time="18.065"/>
-  <testcase name="TC_32_JumpPoints_015_Porsche" classname="uk.co.sytner.hompage.JumpPoint" time="18.248"/>
-  <testcase name="TC_33_JumpPoints_016_RollsRoyce" classname="uk.co.sytner.hompage.JumpPoint" time="12.502"/>
-  <testcase name="TC_34_JumpPoints_017_Seat" classname="uk.co.sytner.hompage.JumpPoint" time="18.839"/>
-  <testcase name="TC_35_JumpPoints_018_Skoda" classname="uk.co.sytner.hompage.JumpPoint" time="14.201"/>
-  <testcase name="TC_36_JumpPoints_019_Smart" classname="uk.co.sytner.hompage.JumpPoint" time="14.179"/>
-  <testcase name="TC_37_JumpPoints_020_Volkswagen" classname="uk.co.sytner.hompage.JumpPoint" time="12.998"/>
-  <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" classname="uk.co.sytner.hompage.JumpPoint" time="13.984"/>
-  <testcase name="TC_39_JumpPoints_022_Volvo" classname="uk.co.sytner.hompage.JumpPoint" time="14.898"/>
+  <testcase name="TC_26_JumpPoints_009_Lamborghini" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:01:35,449 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+2020-09-20 20:01:35,489 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:01:35,489 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+Retry test name: TC_26_JumpPoints_009_Lamborghini with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_26_JumpPoints_009_Lamborghini" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:02:05,670 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+2020-09-20 20:02:05,705 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:02:05,705 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+Retry test name: TC_26_JumpPoints_009_Lamborghini with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_26_JumpPoints_009_Lamborghini" classname="uk.co.sytner.hompage.JumpPoint" time="30.341">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module lamborghini&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module lamborghini')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_26_JumpPoints_009_Lamborghini(JumpPoint.java:199)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:02:35,973 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+2020-09-20 20:02:36,012 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:02:36,012 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_27_JumpPoints_010_SytnerSelect" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:03:06,317 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+2020-09-20 20:03:06,358 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:03:06,358 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+Retry test name: TC_27_JumpPoints_010_SytnerSelect with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_27_JumpPoints_010_SytnerSelect" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:03:36,749 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+2020-09-20 20:03:36,785 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:03:36,785 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+Retry test name: TC_27_JumpPoints_010_SytnerSelect with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_27_JumpPoints_010_SytnerSelect" classname="uk.co.sytner.hompage.JumpPoint" time="30.552">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module sytner-select&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module sytner-select')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_27_JumpPoints_010_SytnerSelect(JumpPoint.java:220)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:04:07,048 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+2020-09-20 20:04:07,095 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:04:07,096 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_28_JumpPoints_011_Maserati" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:04:37,603 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+2020-09-20 20:04:37,655 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:04:37,655 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+Retry test name: TC_28_JumpPoints_011_Maserati with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_28_JumpPoints_011_Maserati" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:05:07,856 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+2020-09-20 20:05:07,916 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:05:07,916 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+Retry test name: TC_28_JumpPoints_011_Maserati with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_28_JumpPoints_011_Maserati" classname="uk.co.sytner.hompage.JumpPoint" time="30.285">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module maserati&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module maserati')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_28_JumpPoints_011_Maserati(JumpPoint.java:241)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:05:37,974 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+2020-09-20 20:05:38,011 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:05:38,011 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_29_JumpPoints_012_McLaren" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:06:08,262 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+2020-09-20 20:06:08,309 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:06:08,309 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+Retry test name: TC_29_JumpPoints_012_McLaren with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_29_JumpPoints_012_McLaren" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:06:38,467 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+2020-09-20 20:06:38,500 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:06:38,501 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+Retry test name: TC_29_JumpPoints_012_McLaren with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_29_JumpPoints_012_McLaren" classname="uk.co.sytner.hompage.JumpPoint" time="30.337">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module mclaren&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mclaren')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_29_JumpPoints_012_McLaren(JumpPoint.java:262)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:07:08,789 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+2020-09-20 20:07:08,825 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:07:08,825 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_30_JumpPoints_013_MercedesBenz" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:07:39,129 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+2020-09-20 20:07:39,172 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:07:39,172 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+Retry test name: TC_30_JumpPoints_013_MercedesBenz with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_30_JumpPoints_013_MercedesBenz" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:08:09,639 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+2020-09-20 20:08:09,679 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:08:09,679 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+Retry test name: TC_30_JumpPoints_013_MercedesBenz with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_30_JumpPoints_013_MercedesBenz" classname="uk.co.sytner.hompage.JumpPoint" time="30.497">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module mercedes-benz&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mercedes-benz')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_30_JumpPoints_013_MercedesBenz(JumpPoint.java:283)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:08:40,073 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+2020-09-20 20:08:40,113 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:08:40,113 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_31_JumpPoints_014_Mini" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:09:10,572 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+2020-09-20 20:09:10,615 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:09:10,615 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+Retry test name: TC_31_JumpPoints_014_Mini with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_31_JumpPoints_014_Mini" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:09:41,007 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+2020-09-20 20:09:41,042 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:09:41,042 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+Retry test name: TC_31_JumpPoints_014_Mini with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_31_JumpPoints_014_Mini" classname="uk.co.sytner.hompage.JumpPoint" time="30.392">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module mini&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mini')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_31_JumpPoints_014_Mini(JumpPoint.java:304)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:10:11,385 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+2020-09-20 20:10:11,455 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:10:11,455 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_32_JumpPoints_015_Porsche" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:10:41,781 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+2020-09-20 20:10:41,828 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:10:41,828 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+Retry test name: TC_32_JumpPoints_015_Porsche with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_32_JumpPoints_015_Porsche" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:11:12,096 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+2020-09-20 20:11:12,128 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:11:12,128 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+Retry test name: TC_32_JumpPoints_015_Porsche with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_32_JumpPoints_015_Porsche" classname="uk.co.sytner.hompage.JumpPoint" time="30.386">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module porsche&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module porsche')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_32_JumpPoints_015_Porsche(JumpPoint.java:325)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:11:42,323 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+2020-09-20 20:11:42,367 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:11:42,367 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_33_JumpPoints_016_RollsRoyce" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:12:12,715 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+2020-09-20 20:12:12,757 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:12:12,757 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+Retry test name: TC_33_JumpPoints_016_RollsRoyce with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_33_JumpPoints_016_RollsRoyce" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:12:42,950 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+2020-09-20 20:12:43,001 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:12:43,001 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+Retry test name: TC_33_JumpPoints_016_RollsRoyce with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_33_JumpPoints_016_RollsRoyce" classname="uk.co.sytner.hompage.JumpPoint" time="30.169">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module rolls-royce&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module rolls-royce')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_33_JumpPoints_016_RollsRoyce(JumpPoint.java:346)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:13:13,148 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+2020-09-20 20:13:13,181 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:13:13,181 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_34_JumpPoints_017_Seat" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:13:43,319 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+2020-09-20 20:13:43,363 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:13:43,363 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+Retry test name: TC_34_JumpPoints_017_Seat with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_34_JumpPoints_017_Seat" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:14:13,563 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+2020-09-20 20:14:13,607 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:14:13,607 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+Retry test name: TC_34_JumpPoints_017_Seat with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_34_JumpPoints_017_Seat" classname="uk.co.sytner.hompage.JumpPoint" time="30.165">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module seat&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module seat')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_34_JumpPoints_017_Seat(JumpPoint.java:367)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:14:43,784 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+2020-09-20 20:14:43,816 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:14:43,816 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_35_JumpPoints_018_Skoda" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:15:13,952 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+2020-09-20 20:15:13,991 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:15:13,991 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+Retry test name: TC_35_JumpPoints_018_Skoda with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_35_JumpPoints_018_Skoda" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:15:44,235 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+2020-09-20 20:15:44,282 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:15:44,282 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+Retry test name: TC_35_JumpPoints_018_Skoda with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_35_JumpPoints_018_Skoda" classname="uk.co.sytner.hompage.JumpPoint" time="30.216">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module skoda&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module skoda')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_35_JumpPoints_018_Skoda(JumpPoint.java:388)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:16:14,799 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+2020-09-20 20:16:14,832 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:16:14,832 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_36_JumpPoints_019_Smart" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:16:45,017 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+2020-09-20 20:16:45,057 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:16:45,057 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+Retry test name: TC_36_JumpPoints_019_Smart with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_36_JumpPoints_019_Smart" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:17:15,203 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+2020-09-20 20:17:15,235 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:17:15,235 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+Retry test name: TC_36_JumpPoints_019_Smart with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_36_JumpPoints_019_Smart" classname="uk.co.sytner.hompage.JumpPoint" time="30.199">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module smart&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module smart')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_36_JumpPoints_019_Smart(JumpPoint.java:409)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:17:45,485 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+2020-09-20 20:17:45,517 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:17:45,517 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+]]></system-out>
+  </testcase>
+  <testcase name="TC_37_JumpPoints_020_Volkswagen" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:18:15,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+Retry test name: TC_37_JumpPoints_020_Volkswagen with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_37_JumpPoints_020_Volkswagen" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:18:25,740 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+Retry test name: TC_37_JumpPoints_020_Volkswagen with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_37_JumpPoints_020_Volkswagen" classname="uk.co.sytner.hompage.JumpPoint" time="10.004">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module volkswagen&apos;)] (tried for 10 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volkswagen')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_37_JumpPoints_020_Volkswagen(JumpPoint.java:427)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:18:35,751 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+]]></system-out>
+  </testcase>
+  <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:18:45,759 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+Retry test name: TC_38_JumpPoints_021_VolkswagenCommercial with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:18:55,802 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+Retry test name: TC_38_JumpPoints_021_VolkswagenCommercial with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" classname="uk.co.sytner.hompage.JumpPoint" time="10.068">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module volkswagen-commercial&apos;)] (tried for 10 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volkswagen-commercial')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_38_JumpPoints_021_VolkswagenCommercial(JumpPoint.java:448)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:19:05,860 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+]]></system-out>
+  </testcase>
+  <testcase name="TC_39_JumpPoints_022_Volvo" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:19:15,931 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+2020-09-20 20:19:15,982 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:19:15,982 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+Retry test name: TC_39_JumpPoints_022_Volvo with: 1time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_39_JumpPoints_022_Volvo" classname="uk.co.sytner.hompage.JumpPoint" time="0">
+    <skipped/>
+    <system-out><![CDATA[2020-09-20 20:19:46,124 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+2020-09-20 20:19:46,159 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:19:46,159 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+Retry test name: TC_39_JumpPoints_022_Volvo with: 2time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="TC_39_JumpPoints_022_Volvo" classname="uk.co.sytner.hompage.JumpPoint" time="30.093">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module volvo&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;&#10;System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 98e910f4238f751e82dbd12355e92feb" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volvo')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_39_JumpPoints_022_Volvo(JumpPoint.java:472)
+</failure>
+    <system-out><![CDATA[2020-09-20 20:20:16,264 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+2020-09-20 20:20:16,308 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:20:16,308 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+]]></system-out>
+  </testcase>
 </testsuite>

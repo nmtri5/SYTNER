@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SYTNER" />
+        <module name="maven_sytner" />
       </profile>
     </annotationProcessing>
   </component>

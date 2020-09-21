@@ -1,23 +1,1102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run test on Chrome browser"
-           tests="24"
-           failures="1"
+           tests="66"
+           failures="22"
            errors="0"
-           skipped="2"
-           time="359.868">
+           skipped="44"
+           time="1858.992">
   <properties />
-            <testcase name="TC_25_JumpPoints_008_LandRover" time="17.435" classname="uk.co.sytner.hompage.JumpPoint">
-                <failure type="java.lang.AssertionError"
-                  message="expected [true] but found [false]"
+            <testcase name="TC_31_JumpPoints_014_Mini" time="30.395" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module mini&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
               >
-<![CDATA[java.lang.AssertionError: expected [true] but found [false]
-  org.testng.Assert.fail(Assert.java:94)
-  org.testng.Assert.failNotEquals(Assert.java:513)
-  org.testng.Assert.assertTrue(Assert.java:42)
-  org.testng.Assert.assertTrue(Assert.java:52)
-  commons.AbstractTest.checkPassed(AbstractTest.java:63)
-  commons.AbstractTest.verifyTrue(AbstractTest.java:74)
-  uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mini')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_31_JumpPoints_014_Mini(JumpPoint.java:304)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_34_JumpPoints_017_Seat" time="30.167" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module seat&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module seat')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_34_JumpPoints_017_Seat(JumpPoint.java:367)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_21_JumpPoints_004_BMW" time="30.251" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module bmw&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module bmw')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_21_JumpPoints_004_BMW(JumpPoint.java:94)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_35_JumpPoints_018_Skoda" time="30.218" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module skoda&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module skoda')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_35_JumpPoints_018_Skoda(JumpPoint.java:388)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_19_JumpPoints_002_Audi" time="30.291" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module audi&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module audi')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_19_JumpPoints_002_Audi(JumpPoint.java:52)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" time="10.071" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module volkswagen-commercial&apos;)] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volkswagen-commercial')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.isElementDisplayed(AbstractPage.java:354)
+  pageobject.HomePageObjects.isSpecificJumpPointDisplayed(HomePageObjects.java:29)
+  uk.co.sytner.hompage.JumpPoint.TC_38_JumpPoints_021_VolkswagenCommercial(JumpPoint.java:448)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_22_JumpPoints_005_Ferrari" time="30.264" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module ferrari&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module ferrari')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_22_JumpPoints_005_Ferrari(JumpPoint.java:115)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_28_JumpPoints_011_Maserati" time="30.288" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module maserati&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module maserati')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_28_JumpPoints_011_Maserati(JumpPoint.java:241)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_20_JumpPoints_003_Bentley" time="30.305" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module bentley&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module bentley')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_20_JumpPoints_003_Bentley(JumpPoint.java:73)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_24_JumpPoints_007_Jaguar" time="30.251" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module jaguar&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module jaguar')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_24_JumpPoints_007_Jaguar(JumpPoint.java:157)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_30_JumpPoints_013_MercedesBenz" time="30.498" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module mercedes-benz&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mercedes-benz')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_30_JumpPoints_013_MercedesBenz(JumpPoint.java:283)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_36_JumpPoints_019_Smart" time="30.201" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module smart&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module smart')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_36_JumpPoints_019_Smart(JumpPoint.java:409)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_18_JumpPoints_001_Alpina" time="30.273" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module alpina&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module alpina')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_18_JumpPoints_001_Alpina(JumpPoint.java:31)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_23_JumpPoints_006_AstonMartin" time="30.214" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module aston-martin&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module aston-martin')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_23_JumpPoints_006_AstonMartin(JumpPoint.java:136)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_33_JumpPoints_016_RollsRoyce" time="30.170" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module rolls-royce&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module rolls-royce')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_33_JumpPoints_016_RollsRoyce(JumpPoint.java:346)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_27_JumpPoints_010_SytnerSelect" time="30.554" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module sytner-select&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module sytner-select')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_27_JumpPoints_010_SytnerSelect(JumpPoint.java:220)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_26_JumpPoints_009_Lamborghini" time="30.345" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module lamborghini&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module lamborghini')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_26_JumpPoints_009_Lamborghini(JumpPoint.java:199)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_37_JumpPoints_020_Volkswagen" time="10.006" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module volkswagen&apos;)] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volkswagen')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.isElementDisplayed(AbstractPage.java:354)
+  pageobject.HomePageObjects.isSpecificJumpPointDisplayed(HomePageObjects.java:29)
+  uk.co.sytner.hompage.JumpPoint.TC_37_JumpPoints_020_Volkswagen(JumpPoint.java:427)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_39_JumpPoints_022_Volvo" time="30.095" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module volvo&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volvo')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_39_JumpPoints_022_Volvo(JumpPoint.java:472)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_25_JumpPoints_008_LandRover" time="30.098" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module land-rover&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module land-rover')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:178)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_29_JumpPoints_012_McLaren" time="30.339" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module mclaren&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mclaren')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_29_JumpPoints_012_McLaren(JumpPoint.java:262)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+  org.testng.internal.Invoker.retryFailed(Invoker.java:967)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+  org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+  org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+  org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+  org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+  org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC_32_JumpPoints_015_Porsche" time="30.391" classname="uk.co.sytner.hompage.JumpPoint">
+                <failure type="org.openqa.selenium.TimeoutException"
+                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;jump module porsche&apos;)]//span[@class = &apos;content&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;S056005530&apos;, ip: &apos;10.0.0.222&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb"
+              >
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module porsche')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+  org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+  commons.AbstractPage.hoverMouseToElement(AbstractPage.java:443)
+  pageobject.HomePageObjects.moveToAnyJumpPoint(HomePageObjects.java:34)
+  uk.co.sytner.hompage.JumpPoint.TC_32_JumpPoints_015_Porsche(JumpPoint.java:325)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,33 +1129,138 @@
 
           </testcase>
   
-            <testcase name="TC_25_JumpPoints_008_LandRover" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+            <testcase name="TC_32_JumpPoints_015_Porsche" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_35_JumpPoints_018_Skoda" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_27_JumpPoints_010_SytnerSelect" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_32_JumpPoints_015_Porsche" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_28_JumpPoints_011_Maserati" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_36_JumpPoints_019_Smart" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_18_JumpPoints_001_Alpina" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_28_JumpPoints_011_Maserati" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_29_JumpPoints_012_McLaren" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_19_JumpPoints_002_Audi" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_21_JumpPoints_004_BMW" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_33_JumpPoints_016_RollsRoyce" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_26_JumpPoints_009_Lamborghini" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_35_JumpPoints_018_Skoda" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_24_JumpPoints_007_Jaguar" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
           <skipped />
     </testcase>
             <testcase name="TC_25_JumpPoints_008_LandRover" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_34_JumpPoints_017_Seat" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_21_JumpPoints_004_BMW" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_30_JumpPoints_013_MercedesBenz" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_18_JumpPoints_001_Alpina" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_26_JumpPoints_009_Lamborghini" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_39_JumpPoints_022_Volvo" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_20_JumpPoints_003_Bentley" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_23_JumpPoints_006_AstonMartin" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_34_JumpPoints_017_Seat" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_33_JumpPoints_016_RollsRoyce" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_22_JumpPoints_005_Ferrari" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_36_JumpPoints_019_Smart" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_39_JumpPoints_022_Volvo" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_37_JumpPoints_020_Volkswagen" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_19_JumpPoints_002_Audi" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_31_JumpPoints_014_Mini" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_23_JumpPoints_006_AstonMartin" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_27_JumpPoints_010_SytnerSelect" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_22_JumpPoints_005_Ferrari" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_37_JumpPoints_020_Volkswagen" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_20_JumpPoints_003_Bentley" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_24_JumpPoints_007_Jaguar" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_30_JumpPoints_013_MercedesBenz" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_29_JumpPoints_012_McLaren" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_25_JumpPoints_008_LandRover" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
+          <skipped />
+    </testcase>
+            <testcase name="TC_31_JumpPoints_014_Mini" time="0.0" classname="uk.co.sytner.hompage.JumpPoint">
           <skipped />
     </testcase>
   
-            <testcase name="TC_38_JumpPoints_021_VolkswagenCommercial" time="13.984" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_30_JumpPoints_013_MercedesBenz" time="14.933" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_26_JumpPoints_009_Lamborghini" time="10.654" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_37_JumpPoints_020_Volkswagen" time="12.999" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_35_JumpPoints_018_Skoda" time="14.200" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_28_JumpPoints_011_Maserati" time="17.146" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_31_JumpPoints_014_Mini" time="18.066" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_21_JumpPoints_004_BMW" time="13.301" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_23_JumpPoints_006_AstonMartin" time="10.500" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_22_JumpPoints_005_Ferrari" time="15.083" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_39_JumpPoints_022_Volvo" time="14.897" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_19_JumpPoints_002_Audi" time="17.063" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_29_JumpPoints_012_McLaren" time="17.230" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_34_JumpPoints_017_Seat" time="18.839" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_36_JumpPoints_019_Smart" time="14.179" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_20_JumpPoints_003_Bentley" time="16.580" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_24_JumpPoints_007_Jaguar" time="12.399" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_33_JumpPoints_016_RollsRoyce" time="12.501" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_27_JumpPoints_010_SytnerSelect" time="14.873" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_18_JumpPoints_001_Alpina" time="15.572" classname="uk.co.sytner.hompage.JumpPoint" />
-                <testcase name="TC_32_JumpPoints_015_Porsche" time="18.247" classname="uk.co.sytner.hompage.JumpPoint" />
-      
+  
 </testsuite>

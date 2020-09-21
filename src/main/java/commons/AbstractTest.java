@@ -33,7 +33,7 @@ public class AbstractTest {
             profile.setPreference("browser.download.dir", "e:\\SampleExcel");
             driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("chrome")) {
-            WebDriverManager.chromedriver().version("71.0.3578.80").setup();
+            WebDriverManager.chromedriver().version("85.0.4183.87").setup();
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("ie")) {
             WebDriverManager.iedriver().version("3.9.0").arch32().setup();

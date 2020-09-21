@@ -19,9 +19,30 @@
     <classes>
       <class name="uk.co.sytner.hompage.JumpPoint">
         <methods>
-          <include name="TC_25_JumpPoints_008_LandRover"/>
+          <include name="TC_24_JumpPoints_007_Jaguar"/>
+          <include name="TC_31_JumpPoints_014_Mini"/>
+          <include name="TC_39_JumpPoints_022_Volvo"/>
+          <include name="TC_21_JumpPoints_004_BMW"/>
+          <include name="TC_29_JumpPoints_012_McLaren"/>
+          <include name="TC_37_JumpPoints_020_Volkswagen"/>
           <include name="tearDown"/>
+          <include name="TC_19_JumpPoints_002_Audi"/>
+          <include name="TC_36_JumpPoints_019_Smart"/>
+          <include name="TC_26_JumpPoints_009_Lamborghini"/>
+          <include name="TC_33_JumpPoints_016_RollsRoyce"/>
+          <include name="TC_20_JumpPoints_003_Bentley"/>
+          <include name="TC_32_JumpPoints_015_Porsche"/>
+          <include name="TC_27_JumpPoints_010_SytnerSelect"/>
+          <include name="TC_34_JumpPoints_017_Seat"/>
+          <include name="TC_35_JumpPoints_018_Skoda"/>
+          <include name="TC_25_JumpPoints_008_LandRover"/>
+          <include name="TC_28_JumpPoints_011_Maserati"/>
           <include name="beforeClass"/>
+          <include name="TC_18_JumpPoints_001_Alpina"/>
+          <include name="TC_38_JumpPoints_021_VolkswagenCommercial"/>
+          <include name="TC_30_JumpPoints_013_MercedesBenz"/>
+          <include name="TC_22_JumpPoints_005_Ferrari"/>
+          <include name="TC_23_JumpPoints_006_AstonMartin"/>
         </methods>
       </class> <!-- uk.co.sytner.hompage.JumpPoint -->
     </classes>

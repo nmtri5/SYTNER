@@ -1,8 +1,224 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 393.649 sec <<< FAILURE! - in TestSuite
-TC_25_JumpPoints_008_LandRover(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 17.04 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:187)
+Tests run: 66, Failures: 22, Errors: 0, Skipped: 44, Time elapsed: 1,875.45 sec <<< FAILURE! - in TestSuite
+TC_18_JumpPoints_001_Alpina(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.276 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module alpina')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_18_JumpPoints_001_Alpina(JumpPoint.java:31)
+
+TC_19_JumpPoints_002_Audi(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.291 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module audi')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_19_JumpPoints_002_Audi(JumpPoint.java:52)
+
+TC_20_JumpPoints_003_Bentley(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.303 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module bentley')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_20_JumpPoints_003_Bentley(JumpPoint.java:73)
+
+TC_21_JumpPoints_004_BMW(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.248 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module bmw')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_21_JumpPoints_004_BMW(JumpPoint.java:94)
+
+TC_22_JumpPoints_005_Ferrari(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.262 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module ferrari')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_22_JumpPoints_005_Ferrari(JumpPoint.java:115)
+
+TC_23_JumpPoints_006_AstonMartin(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.212 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module aston-martin')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_23_JumpPoints_006_AstonMartin(JumpPoint.java:136)
+
+TC_24_JumpPoints_007_Jaguar(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.249 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module jaguar')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_24_JumpPoints_007_Jaguar(JumpPoint.java:157)
+
+TC_25_JumpPoints_008_LandRover(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.096 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module land-rover')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_25_JumpPoints_008_LandRover(JumpPoint.java:178)
+
+TC_26_JumpPoints_009_Lamborghini(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.341 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module lamborghini')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_26_JumpPoints_009_Lamborghini(JumpPoint.java:199)
+
+TC_27_JumpPoints_010_SytnerSelect(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.552 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module sytner-select')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_27_JumpPoints_010_SytnerSelect(JumpPoint.java:220)
+
+TC_28_JumpPoints_011_Maserati(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.285 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module maserati')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_28_JumpPoints_011_Maserati(JumpPoint.java:241)
+
+TC_29_JumpPoints_012_McLaren(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.337 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mclaren')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_29_JumpPoints_012_McLaren(JumpPoint.java:262)
+
+TC_30_JumpPoints_013_MercedesBenz(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.497 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mercedes-benz')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_30_JumpPoints_013_MercedesBenz(JumpPoint.java:283)
+
+TC_31_JumpPoints_014_Mini(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.392 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module mini')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_31_JumpPoints_014_Mini(JumpPoint.java:304)
+
+TC_32_JumpPoints_015_Porsche(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.386 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module porsche')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_32_JumpPoints_015_Porsche(JumpPoint.java:325)
+
+TC_33_JumpPoints_016_RollsRoyce(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.169 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module rolls-royce')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_33_JumpPoints_016_RollsRoyce(JumpPoint.java:346)
+
+TC_34_JumpPoints_017_Seat(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.165 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module seat')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_34_JumpPoints_017_Seat(JumpPoint.java:367)
+
+TC_35_JumpPoints_018_Skoda(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.216 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module skoda')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_35_JumpPoints_018_Skoda(JumpPoint.java:388)
+
+TC_36_JumpPoints_019_Smart(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.199 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module smart')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_36_JumpPoints_019_Smart(JumpPoint.java:409)
+
+TC_37_JumpPoints_020_Volkswagen(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 10.004 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volkswagen')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_37_JumpPoints_020_Volkswagen(JumpPoint.java:427)
+
+TC_38_JumpPoints_021_VolkswagenCommercial(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 10.068 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volkswagen-commercial')] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_38_JumpPoints_021_VolkswagenCommercial(JumpPoint.java:448)
+
+TC_39_JumpPoints_022_Volvo(uk.co.sytner.hompage.JumpPoint)  Time elapsed: 30.093 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'jump module volvo')]//span[@class = 'content'] (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'S056005530', ip: '10.0.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TRI~1.NGU\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98e910f4238f751e82dbd12355e92feb
+	at uk.co.sytner.hompage.JumpPoint.TC_39_JumpPoints_022_Volvo(JumpPoint.java:472)
 

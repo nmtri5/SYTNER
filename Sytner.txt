@@ -1,218 +1,189 @@
-2019-08-14 23:06:04,783 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
-2019-08-14 23:06:05,074 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:05,079 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
-2019-08-14 23:06:06,400 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina icon is displayed
-2019-08-14 23:06:06,559 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:06,559 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Alpina jump point
-2019-08-14 23:06:16,498 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina page is displayed
-2019-08-14 23:06:16,534 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:16,534 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:06:20,347 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
-2019-08-14 23:06:21,900 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:21,900 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
-2019-08-14 23:06:24,578 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi icon is displayed
-2019-08-14 23:06:24,632 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:24,632 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Audi jump point
-2019-08-14 23:06:33,631 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi page is displayed
-2019-08-14 23:06:33,743 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:33,743 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:06:37,410 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
-2019-08-14 23:06:38,416 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:38,417 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
-2019-08-14 23:06:41,115 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley icon is displayed
-2019-08-14 23:06:41,294 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:41,294 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Bentley jump point
-2019-08-14 23:06:47,542 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley page is displayed
-2019-08-14 23:06:47,752 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:47,753 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:06:53,991 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
-2019-08-14 23:06:54,094 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:54,095 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
-2019-08-14 23:06:55,309 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW icon is displayed
-2019-08-14 23:06:55,391 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:06:55,391 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On BMW jump point
-2019-08-14 23:07:04,697 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW page is displayed
-2019-08-14 23:07:04,709 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:04,710 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:07:07,292 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
-2019-08-14 23:07:08,207 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:08,207 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
-2019-08-14 23:07:11,204 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari icon is displayed
-2019-08-14 23:07:11,341 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:11,341 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Ferrari jump point
-2019-08-14 23:07:13,256 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari page is displayed
-2019-08-14 23:07:13,791 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:13,791 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:07:22,377 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
-2019-08-14 23:07:22,568 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:22,568 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
-2019-08-14 23:07:23,758 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin icon is displayed
-2019-08-14 23:07:23,806 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:23,807 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Aston Martin jump point
-2019-08-14 23:07:29,730 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin page is displayed
-2019-08-14 23:07:29,738 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:29,738 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:07:32,877 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
-2019-08-14 23:07:34,536 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:34,536 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
-2019-08-14 23:07:36,870 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar icon is displayed
-2019-08-14 23:07:36,929 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:36,929 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Jaguar jump point
-2019-08-14 23:07:39,720 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar page is displayed
-2019-08-14 23:07:40,161 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:40,162 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:07:45,277 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
-2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:46,269 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
-2019-08-14 23:07:49,329 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
-2019-08-14 23:07:49,382 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:07:49,383 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
-2019-08-14 23:07:57,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
-2019-08-14 23:07:57,695 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
-2019-08-14 23:07:57,700 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:08:00,392 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
-2019-08-14 23:08:01,680 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:01,681 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
-2019-08-14 23:08:04,240 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
-2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:04,301 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
-2019-08-14 23:08:06,812 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
-2019-08-14 23:08:07,170 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
-2019-08-14 23:08:07,171 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:08:14,470 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
-2019-08-14 23:08:16,877 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:16,878 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
-2019-08-14 23:08:20,669 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover icon is displayed
-2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:20,718 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On LandRover jump point
-2019-08-14 23:08:23,324 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover page is displayed
-2019-08-14 23:08:23,711 INFO  uk.co.sytner.hompage.JumpPoint - ===FAILED==
-2019-08-14 23:08:23,712 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:08:31,920 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
-2019-08-14 23:08:32,161 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:32,161 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
-2019-08-14 23:08:33,419 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini icon is displayed
-2019-08-14 23:08:33,469 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:33,469 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Lamborghini jump point
-2019-08-14 23:08:40,155 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini page is displayed
-2019-08-14 23:08:40,186 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:40,187 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:08:42,575 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
-2019-08-14 23:08:44,425 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:44,426 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
-2019-08-14 23:08:47,118 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select icon is displayed
-2019-08-14 23:08:47,166 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:47,166 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Sytner Select jump point
-2019-08-14 23:08:54,542 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select page is displayed
-2019-08-14 23:08:54,553 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:54,554 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:08:57,449 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
-2019-08-14 23:08:58,944 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:08:58,944 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
-2019-08-14 23:09:01,531 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati icon is displayed
-2019-08-14 23:09:01,726 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:01,726 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Maserati jump point
-2019-08-14 23:09:08,639 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati page is displayed
-2019-08-14 23:09:08,650 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:08,651 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:09:14,596 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
-2019-08-14 23:09:14,778 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:14,778 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
-2019-08-14 23:09:15,940 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren icon is displayed
-2019-08-14 23:09:15,995 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:15,995 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On McLaren jump point
-2019-08-14 23:09:23,810 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren page is displayed
-2019-08-14 23:09:23,835 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:23,835 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:09:31,827 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
-2019-08-14 23:09:32,005 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:32,005 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
-2019-08-14 23:09:33,225 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz icon is displayed
-2019-08-14 23:09:33,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:33,270 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On MercedesBenz jump point
-2019-08-14 23:09:36,658 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz page is displayed
-2019-08-14 23:09:37,112 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:37,112 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:09:46,761 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
-2019-08-14 23:09:46,959 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:46,960 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
-2019-08-14 23:09:48,308 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI icon is displayed
-2019-08-14 23:09:48,356 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:48,356 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On MINI jump point
-2019-08-14 23:09:57,279 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI page is displayed
-2019-08-14 23:09:57,538 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:09:57,538 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:10:04,827 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
-2019-08-14 23:10:05,047 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:05,048 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
-2019-08-14 23:10:06,261 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche icon is displayed
-2019-08-14 23:10:06,311 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:06,311 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Porsche jump point
-2019-08-14 23:10:12,751 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche page is displayed
-2019-08-14 23:10:12,775 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:12,775 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:10:23,076 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
-2019-08-14 23:10:23,461 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:23,461 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
-2019-08-14 23:10:24,669 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce icon is displayed
-2019-08-14 23:10:24,725 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:24,725 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Rolls Royce jump point
-2019-08-14 23:10:33,089 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce page is displayed
-2019-08-14 23:10:33,107 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:33,107 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:10:35,577 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
-2019-08-14 23:10:37,377 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:37,377 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
-2019-08-14 23:10:39,914 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT icon is displayed
-2019-08-14 23:10:40,075 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:40,075 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On SEAT jump point
-2019-08-14 23:10:48,383 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT page is displayed
-2019-08-14 23:10:48,392 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:48,392 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:10:54,418 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
-2019-08-14 23:10:54,555 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:54,555 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
-2019-08-14 23:10:55,784 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda icon is displayed
-2019-08-14 23:10:55,832 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:10:55,832 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Skoda jump point
-2019-08-14 23:11:06,281 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda page is displayed
-2019-08-14 23:11:06,302 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:06,302 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:11:08,619 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
-2019-08-14 23:11:09,687 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:09,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
-2019-08-14 23:11:12,795 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart icon is displayed
-2019-08-14 23:11:12,969 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:12,969 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On smart jump point
-2019-08-14 23:11:19,526 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart page is displayed
-2019-08-14 23:11:19,626 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:19,627 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:11:22,799 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
-2019-08-14 23:11:23,879 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:23,879 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volkswagen jump point
-2019-08-14 23:11:26,601 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen icon is displayed
-2019-08-14 23:11:26,653 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:26,653 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Volkswagen jump point
-2019-08-14 23:11:29,694 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen page is displayed
-2019-08-14 23:11:30,034 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:30,035 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:11:35,799 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
-2019-08-14 23:11:36,910 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:36,911 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volkswagen Commercial jump point
-2019-08-14 23:11:40,053 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial icon is displayed
-2019-08-14 23:11:40,155 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:40,155 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Volkswagen Commercial jump point
-2019-08-14 23:11:46,981 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial page is displayed
-2019-08-14 23:11:47,008 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:47,008 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:11:49,785 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
-2019-08-14 23:11:51,626 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:51,626 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
-2019-08-14 23:11:54,213 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo icon is displayed
-2019-08-14 23:11:54,260 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:11:54,260 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 02: Click On Volvo jump point
-2019-08-14 23:12:01,940 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo page is displayed
-2019-08-14 23:12:02,019 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
-2019-08-14 23:12:02,019 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Post-condition: Click to Sytner Logo to back to homepage
-2019-08-14 23:12:04,683 INFO  uk.co.sytner.hompage.JumpPoint - OS Name: windows 10
-2019-08-14 23:12:06,232 INFO  uk.co.sytner.hompage.JumpPoint - -----QUIT BROWSER SUCCESSFULLY-----
+2020-09-20 19:49:47,341 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+2020-09-20 19:49:47,782 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:49:47,783 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+2020-09-20 19:50:18,143 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+2020-09-20 19:50:18,188 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:50:18,188 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+2020-09-20 19:50:48,323 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Alpina jump point is displayed
+2020-09-20 19:50:48,361 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:50:48,361 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Alpina jump point
+2020-09-20 19:51:18,602 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+2020-09-20 19:51:18,644 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:51:18,644 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+2020-09-20 19:51:48,771 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+2020-09-20 19:51:48,805 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:51:48,805 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+2020-09-20 19:52:18,998 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Audi jump point is displayed
+2020-09-20 19:52:19,050 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:52:19,050 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Audi jump point
+2020-09-20 19:52:49,292 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+2020-09-20 19:52:49,342 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:52:49,342 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+2020-09-20 19:53:19,807 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+2020-09-20 19:53:19,847 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:53:19,847 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+2020-09-20 19:53:50,143 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Bentley jump point is displayed
+2020-09-20 19:53:50,203 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:53:50,203 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Bentley jump point
+2020-09-20 19:54:20,448 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+2020-09-20 19:54:20,489 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:54:20,489 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+2020-09-20 19:54:50,644 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+2020-09-20 19:54:50,678 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:54:50,679 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+2020-09-20 19:55:20,977 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if BMW jump point is displayed
+2020-09-20 19:55:21,010 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:55:21,010 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On BMW jump point
+2020-09-20 19:55:51,228 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+2020-09-20 19:55:51,269 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:55:51,269 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+2020-09-20 19:56:21,350 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+2020-09-20 19:56:21,385 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:56:21,385 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+2020-09-20 19:56:51,920 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Ferrari jump point is displayed
+2020-09-20 19:56:51,961 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:56:51,961 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Ferrari jump point
+2020-09-20 19:57:22,185 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+2020-09-20 19:57:22,253 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:57:22,253 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+2020-09-20 19:57:52,520 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+2020-09-20 19:57:52,561 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:57:52,561 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+2020-09-20 19:57:54,276 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin icon is displayed
+2020-09-20 19:58:04,371 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Aston Martin jump point is displayed
+2020-09-20 19:58:04,405 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:58:04,405 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Aston Martin jump point
+2020-09-20 19:58:34,585 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+2020-09-20 19:58:34,627 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:58:34,627 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+2020-09-20 19:59:04,747 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+2020-09-20 19:59:04,784 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:59:04,784 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+2020-09-20 19:59:34,858 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Jaguar jump point is displayed
+2020-09-20 19:59:34,900 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 19:59:34,900 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Jaguar jump point
+2020-09-20 20:00:05,109 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2020-09-20 20:00:05,166 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:00:05,166 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+2020-09-20 20:00:35,249 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2020-09-20 20:00:35,282 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:00:35,282 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+2020-09-20 20:01:05,351 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if LandRover jump point is displayed
+2020-09-20 20:01:05,385 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:01:05,385 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On LandRover jump point
+2020-09-20 20:01:35,449 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+2020-09-20 20:01:35,489 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:01:35,489 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+2020-09-20 20:02:05,670 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+2020-09-20 20:02:05,705 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:02:05,705 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+2020-09-20 20:02:35,973 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Lamborghini jump point is displayed
+2020-09-20 20:02:36,012 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:02:36,012 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Lamborghini jump point
+2020-09-20 20:03:06,317 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+2020-09-20 20:03:06,358 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:03:06,358 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+2020-09-20 20:03:36,749 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+2020-09-20 20:03:36,785 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:03:36,785 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+2020-09-20 20:04:07,048 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Sytner Select jump point is displayed
+2020-09-20 20:04:07,095 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:04:07,096 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Sytner Select jump point
+2020-09-20 20:04:37,603 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+2020-09-20 20:04:37,655 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:04:37,655 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+2020-09-20 20:05:07,856 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+2020-09-20 20:05:07,916 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:05:07,916 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+2020-09-20 20:05:37,974 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Maserati jump point is displayed
+2020-09-20 20:05:38,011 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:05:38,011 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Maserati jump point
+2020-09-20 20:06:08,262 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+2020-09-20 20:06:08,309 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:06:08,309 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+2020-09-20 20:06:38,467 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+2020-09-20 20:06:38,500 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:06:38,501 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+2020-09-20 20:07:08,789 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if McLaren jump point is displayed
+2020-09-20 20:07:08,825 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:07:08,825 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On McLaren jump point
+2020-09-20 20:07:39,129 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+2020-09-20 20:07:39,172 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:07:39,172 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+2020-09-20 20:08:09,639 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+2020-09-20 20:08:09,679 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:08:09,679 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+2020-09-20 20:08:40,073 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MercedesBenz jump point is displayed
+2020-09-20 20:08:40,113 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:08:40,113 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MercedesBenz jump point
+2020-09-20 20:09:10,572 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+2020-09-20 20:09:10,615 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:09:10,615 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+2020-09-20 20:09:41,007 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+2020-09-20 20:09:41,042 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:09:41,042 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+2020-09-20 20:10:11,385 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if MINI jump point is displayed
+2020-09-20 20:10:11,455 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:10:11,455 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On MINI jump point
+2020-09-20 20:10:41,781 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+2020-09-20 20:10:41,828 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:10:41,828 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+2020-09-20 20:11:12,096 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+2020-09-20 20:11:12,128 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:11:12,128 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+2020-09-20 20:11:42,323 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Porsche jump point is displayed
+2020-09-20 20:11:42,367 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:11:42,367 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Porsche jump point
+2020-09-20 20:12:12,715 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+2020-09-20 20:12:12,757 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:12:12,757 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+2020-09-20 20:12:42,950 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+2020-09-20 20:12:43,001 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:12:43,001 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+2020-09-20 20:13:13,148 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Rolls Royce jump point is displayed
+2020-09-20 20:13:13,181 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:13:13,181 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Rolls Royce jump point
+2020-09-20 20:13:43,319 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+2020-09-20 20:13:43,363 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:13:43,363 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+2020-09-20 20:14:13,563 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+2020-09-20 20:14:13,607 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:14:13,607 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+2020-09-20 20:14:43,784 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if SEAT jump point is displayed
+2020-09-20 20:14:43,816 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:14:43,816 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On SEAT jump point
+2020-09-20 20:15:13,952 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+2020-09-20 20:15:13,991 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:15:13,991 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+2020-09-20 20:15:44,235 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+2020-09-20 20:15:44,282 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:15:44,282 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+2020-09-20 20:16:14,799 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Skoda jump point is displayed
+2020-09-20 20:16:14,832 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:16:14,832 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Skoda jump point
+2020-09-20 20:16:45,017 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+2020-09-20 20:16:45,057 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:16:45,057 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+2020-09-20 20:17:15,203 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+2020-09-20 20:17:15,235 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:17:15,235 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+2020-09-20 20:17:45,485 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if smart jump point is displayed
+2020-09-20 20:17:45,517 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:17:45,517 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On smart jump point
+2020-09-20 20:18:15,687 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+2020-09-20 20:18:25,740 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+2020-09-20 20:18:35,751 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen jump point is displayed
+2020-09-20 20:18:45,759 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+2020-09-20 20:18:55,802 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+2020-09-20 20:19:05,860 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volkswagen Commercial jump point is displayed
+2020-09-20 20:19:15,931 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+2020-09-20 20:19:15,982 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:19:15,982 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+2020-09-20 20:19:46,124 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+2020-09-20 20:19:46,159 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:19:46,159 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+2020-09-20 20:20:16,264 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - VP: Verify if Volvo jump point is displayed
+2020-09-20 20:20:16,308 INFO  uk.co.sytner.hompage.JumpPoint - ===PASSED==
+2020-09-20 20:20:16,308 INFO  uk.co.sytner.hompage.JumpPoint - JumpPoint Alpine - Step 01: Move On Volvo jump point
+2020-09-20 20:20:46,359 INFO  uk.co.sytner.hompage.JumpPoint - OS Name: windows 10
+2020-09-20 20:20:46,999 INFO  uk.co.sytner.hompage.JumpPoint - -----QUIT BROWSER SUCCESSFULLY-----
